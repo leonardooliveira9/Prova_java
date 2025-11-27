@@ -1,0 +1,10 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/db/products/route.js")
+R.c("server/chunks/b9369_next_0d08b70b._.js")
+R.c("server/chunks/b9369_mysql2_b9c88688._.js")
+R.c("server/chunks/b9369_iconv-lite_cee29683._.js")
+R.c("server/chunks/b9369_aws-ssl-profiles_lib_1df3483d._.js")
+R.c("server/chunks/b9369_264649d8._.js")
+R.c("server/chunks/[root-of-the-server]__fbac00ad._.js")
+R.c("server/chunks/6c7f9_Prova Java__next-internal_server_app_api_db_products_route_actions_911d7e91.js")
+R.m("[project]/Downloads/Prova Java/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Downloads/Prova Java/app/api/db/products/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/Downloads/Prova Java/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Downloads/Prova Java/app/api/db/products/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: oklch(0.98 0.01 85);
+  --color-foreground: oklch(0.15 0.02 85);
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.15 0.02 85);
+  --color-popover: oklch(1 0 0);
+  --color-popover-foreground: oklch(0.15 0.02 85);
+  --color-primary: oklch(0.65 0.2 30);
+  --color-primary-foreground: oklch(0.98 0.01 85);
+  --color-secondary: oklch(0.95 0.02 85);
+  --color-secondary-foreground: oklch(0.15 0.02 85);
+  --color-muted: oklch(0.96 0.01 85);
+  --color-muted-foreground: oklch(0.55 0.02 85);
+  --color-accent: oklch(0.94 0.03 85);
+  --color-accent-foreground: oklch(0.15 0.02 85);
+  --color-destructive: oklch(0.6 0.15 25);
+  --color-destructive-foreground: oklch(0.98 0.01 85);
+  --color-border: oklch(0.92 0.02 85);
+  --color-input: oklch(0.92 0.02 85);
+  --color-ring: oklch(0.15 0.02 85);
+  --radius: 0.75rem;
+  --font-sans: 'Geist', 'Geist Fallback';
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+}
+
+@theme {
+  --color-background--dark: oklch(0.15 0.02 85);
+  --color-foreground--dark: oklch(0.98 0.01 85);
+  --color-card--dark: oklch(0.18 0.02 85);
+  --color-card-foreground--dark: oklch(0.98 0.01 85);
+  --color-popover--dark: oklch(0.18 0.02 85);
+  --color-popover-foreground--dark: oklch(0.98 0.01 85);
+  --color-primary--dark: oklch(0.98 0.01 85);
+  --color-primary-foreground--dark: oklch(0.15 0.02 85);
+  --color-secondary--dark: oklch(0.25 0.02 85);
+  --color-secondary-foreground--dark: oklch(0.98 0.01 85);
+  --color-muted--dark: oklch(0.25 0.02 85);
+  --color-muted-foreground--dark: oklch(0.7 0.02 85);
+  --color-accent--dark: oklch(0.25 0.02 85);
+  --color-accent-foreground--dark: oklch(0.98 0.01 85);
+  --color-destructive--dark: oklch(0.4 0.15 25);
+  --color-destructive-foreground--dark: oklch(0.98 0.01 85);
+  --color-border--dark: oklch(0.25 0.02 85);
+  --color-input--dark: oklch(0.25 0.02 85);
+  --color-ring--dark: oklch(0.8 0.02 85);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}

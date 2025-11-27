@@ -1,0 +1,8 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/Downloads_Prova Java_79e68f18._.js",
+  "static/chunks/b9369_b8947d6a._.js"
+],
+    source: "dynamic"
+});
