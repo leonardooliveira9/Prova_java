@@ -367,6 +367,4 @@ MIT - Veja LICENSE para detalhes
 
 ---
 
-## 👨‍💻 Desenvolvido com ❤️ por v0
-
-Um e-commerce robusto e educacional que demonstra boas práticas de desenvolvimento web moderno.
+## 👨‍💻 Desenvolvido por Leonardo Oliveira Silva 
